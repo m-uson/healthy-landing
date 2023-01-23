@@ -797,10 +797,6 @@ body {
   background-color: rgb(52 199 89 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/image\/placeholder\.png\'\)\] {
-  background-image: url('/image/placeholder.png');
-}
-
 .bg-\[url\(\'\.\.\/image\/placeholder\.png\'\)\] {
   background-image: url('../image/placeholder.png');
 }
@@ -828,11 +824,6 @@ body {
 .py-\[45px\] {
   padding-top: 45px;
   padding-bottom: 45px;
-}
-
-.py-\[50px\] {
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .py-\[70px\] {
@@ -1240,10 +1231,6 @@ span:nth-child(2) {
 
   .mo\:tracking-\[0\.9em\] {
     letter-spacing: 0.9em;
-  }
-
-  .mo\:tracking-\[0\.7em\] {
-    letter-spacing: 0.7em;
   }
 
   .mo\:tracking-\[0\.8em\] {
