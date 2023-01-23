@@ -801,6 +801,10 @@ body {
   background-image: url('/image/placeholder.png');
 }
 
+.bg-\[url\(\'\.\.\/image\/placeholder\.png\'\)\] {
+  background-image: url('../image/placeholder.png');
+}
+
 .bg-contain {
   background-size: contain;
 }
