@@ -1,0 +1,23 @@
+{
+	"name": "castaway",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx tailwindcss -i ./input.css -o ./css/style.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/m-uson/castaway.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/m-uson/castaway/issues"
+	},
+	"homepage": "https://github.com/m-uson/castaway#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	}
+}
