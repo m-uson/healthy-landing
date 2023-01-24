@@ -212,3 +212,10 @@ span:nth-child(2) {
 	background: #191919;
 	transition: background 1s;
 }
+.btn:hover {
+	background: #34c759;
+	transition-duration: background 1s;
+	color: #252525;
+	transition-duration: color 1s;
+	border: none;
+}
