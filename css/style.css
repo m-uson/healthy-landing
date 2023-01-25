@@ -698,6 +698,10 @@ body {
   margin-right: 0.75rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
 }
@@ -706,8 +710,24 @@ body {
   margin-right: 30px;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.mb-\[65px\] {
+  margin-bottom: 65px;
+}
+
+.mb-\[25px\] {
+  margin-bottom: 25px;
+}
+
+.mb-\[45px\] {
+  margin-bottom: 45px;
+}
+
+.mb-\[60px\] {
+  margin-bottom: 60px;
+}
+
+.mr-\[14px\] {
+  margin-right: 14px;
 }
 
 .block {
@@ -742,6 +762,10 @@ body {
   height: 40px;
 }
 
+.h-\[25px\] {
+  height: 25px;
+}
+
 .min-h-\[1080px\] {
   min-height: 1080px;
 }
@@ -752,6 +776,10 @@ body {
 
 .min-h-\[736px\] {
   min-height: 736px;
+}
+
+.min-h-\[510px\] {
+  min-height: 510px;
 }
 
 .w-\[100\%\] {
@@ -772,6 +800,10 @@ body {
 
 .w-\[100px\] {
   width: 100px;
+}
+
+.w-\[89px\] {
+  width: 89px;
 }
 
 .min-w-\[30px\] {
@@ -796,6 +828,18 @@ body {
 
 .max-w-\[200px\] {
   max-width: 200px;
+}
+
+.max-w-\[540px\] {
+  max-width: 540px;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .cursor-pointer {
@@ -830,12 +874,24 @@ body {
   border-radius: 0.375rem;
 }
 
-.rounded-\[2px\] {
-  border-radius: 2px;
-}
-
 .rounded-\[3px\] {
   border-radius: 3px;
+}
+
+.rounded-\[6px\] {
+  border-radius: 6px;
+}
+
+.rounded-\[4px\] {
+  border-radius: 4px;
+}
+
+.rounded-\[8px\] {
+  border-radius: 8px;
+}
+
+.rounded-\[7px\] {
+  border-radius: 7px;
 }
 
 .rounded-b-\[6px\] {
@@ -871,6 +927,10 @@ body {
   background-image: url('../image/placeholder.png');
 }
 
+.bg-\[url\(\'\.\.\/image\/image\.jpg\'\)\] {
+  background-image: url('../image/image.jpg');
+}
+
 .bg-contain {
   background-size: contain;
 }
@@ -903,6 +963,16 @@ body {
 .py-\[70px\] {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.px-\[90px\] {
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .pt-20 {
@@ -1250,10 +1320,6 @@ span:nth-child(2) {
 }
 
 @media (max-width: 1024px) {
-  .lg\:m-auto {
-    margin: auto;
-  }
-
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -1262,20 +1328,8 @@ span:nth-child(2) {
     margin-bottom: 1.5rem;
   }
 
-  .lg\:mr-\[38px\] {
-    margin-right: 38px;
-  }
-
-  .lg\:mr-\[40px\] {
-    margin-right: 40px;
-  }
-
   .lg\:mr-0 {
     margin-right: 0px;
-  }
-
-  .lg\:mr-\[47px\] {
-    margin-right: 47px;
   }
 
   .lg\:flex {
@@ -1284,10 +1338,6 @@ span:nth-child(2) {
 
   .lg\:flex-col {
     flex-direction: column;
-  }
-
-  .lg\:flex-wrap {
-    flex-wrap: wrap;
   }
 
   .lg\:justify-between {
@@ -1336,10 +1386,6 @@ span:nth-child(2) {
     margin-bottom: 1.75rem;
   }
 
-  .sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .sm\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -1370,6 +1416,26 @@ span:nth-child(2) {
 
   .sm\:text-\[27px\] {
     font-size: 27px;
+  }
+
+  .sm\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .sm\:text-\[75px\] {
+    font-size: 75px;
+  }
+
+  .sm\:text-\[70px\] {
+    font-size: 70px;
+  }
+
+  .sm\:tracking-\[0\.1em\] {
+    letter-spacing: 0.1em;
+  }
+
+  .sm\:tracking-\[0\.2em\] {
+    letter-spacing: 0.2em;
   }
 }
 
@@ -1407,8 +1473,28 @@ span:nth-child(2) {
     font-size: 20px;
   }
 
+  .mos\:text-\[13px\] {
+    font-size: 13px;
+  }
+
+  .mos\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .mos\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .mos\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .mos\:tracking-\[0\.2em\] {
     letter-spacing: 0.2em;
+  }
+
+  .mos\:tracking-\[0\.4em\] {
+    letter-spacing: 0.4em;
   }
 }
 
@@ -1433,20 +1519,12 @@ span:nth-child(2) {
     font-size: 55px;
   }
 
-  .mo\:text-\[14px\] {
-    font-size: 14px;
-  }
-
-  .mo\:text-\[45px\] {
-    font-size: 45px;
-  }
-
-  .mo\:text-\[40px\] {
-    font-size: 40px;
-  }
-
   .mo\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .mo\:text-\[14px\] {
+    font-size: 14px;
   }
 
   .mo\:tracking-\[0\.1em\] {
@@ -1463,9 +1541,5 @@ span:nth-child(2) {
 
   .mo\:tracking-\[0\.4em\] {
     letter-spacing: 0.4em;
-  }
-
-  .mo\:tracking-\[0\.3em\] {
-    letter-spacing: 0.3em;
   }
 }
