@@ -710,10 +710,6 @@ body {
   margin-right: 30px;
 }
 
-.mb-\[65px\] {
-  margin-bottom: 65px;
-}
-
 .mb-\[25px\] {
   margin-bottom: 25px;
 }
@@ -736,6 +732,10 @@ body {
 
 .mr-5 {
   margin-right: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -1334,7 +1334,7 @@ span:nth-child(2) {
 }
 
 .break {
-  margin: 0 auto;
+  margin: 0 auto 65px auto;
 }
 
 @media (max-width: 1024px) {
@@ -1411,6 +1411,22 @@ span:nth-child(2) {
     margin-bottom: 2.5rem;
   }
 
+  .md\:mr-0 {
+    margin-right: 0px;
+  }
+
+  .md\:min-h-\[510px\] {
+    min-height: 510px;
+  }
+
+  .md\:max-w-\[540px\] {
+    max-width: 540px;
+  }
+
+  .md\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
   .md\:flex-col {
     flex-direction: column;
   }
@@ -1425,6 +1441,21 @@ span:nth-child(2) {
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .md\:px-\[90px\] {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .md\:px-\[70px\] {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .md\:text-\[62px\] {
@@ -1496,6 +1527,18 @@ span:nth-child(2) {
     margin-bottom: 2rem;
   }
 
+  .mos\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .mos\:mb-5 {
+    margin-bottom: 1.25rem;
+  }
+
+  .mos\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .mos\:max-w-\[300px\] {
     max-width: 300px;
   }
@@ -1503,6 +1546,26 @@ span:nth-child(2) {
   .mos\:px-\[20px\] {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .mos\:px-\[50px\] {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .mos\:py-\[10px\] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .mos\:py-\[40px\] {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .mos\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .mos\:text-\[35px\] {
@@ -1543,8 +1606,16 @@ span:nth-child(2) {
 }
 
 @media (max-width: 375px) {
+  .mo\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
   .mo\:w-\[310px\] {
     width: 310px;
+  }
+
+  .mo\:flex-col {
+    flex-direction: column;
   }
 
   .mo\:text-\[25px\] {
