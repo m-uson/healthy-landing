@@ -223,3 +223,38 @@ span:nth-child(2) {
 .break {
 	margin: 0 auto 65px auto;
 }
+
+.customized-scrollbar {
+	display: block;
+	width: 300px;
+	overflow: auto;
+	height: 12em;
+}
+
+.customized-scrollbar::-webkit-scrollbar {
+	width: 5px;
+	height: 8px;
+	background-color: #262626;
+	border-radius: 30px;
+}
+.customized-scrollbar::-webkit-scrollbar-thumb {
+	background: #737373;
+	border-radius: 30px;
+}
+.img-scrollbar {
+	display: block;
+	width: 342px;
+	overflow: auto;
+	height: 18em;
+}
+
+.img-scrollbar::-webkit-scrollbar {
+	width: 5px;
+	height: 8px;
+	background-color: #262626;
+	border-radius: 30px;
+}
+.img-scrollbar::-webkit-scrollbar-thumb {
+	background: #737373;
+	border-radius: 30px;
+}

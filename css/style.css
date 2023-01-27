@@ -610,6 +610,11 @@ body {
   margin: auto;
 }
 
+.my-\[25px\] {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -726,16 +731,8 @@ body {
   margin-right: 14px;
 }
 
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
 .mr-5 {
   margin-right: 1.25rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .block {
@@ -772,6 +769,18 @@ body {
 
 .h-\[25px\] {
   height: 25px;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[120px\] {
+  height: 120px;
 }
 
 .min-h-\[1080px\] {
@@ -814,6 +823,14 @@ body {
   width: 89px;
 }
 
+.w-\[350px\] {
+  width: 350px;
+}
+
+.w-\[110px\] {
+  width: 110px;
+}
+
 .min-w-\[30px\] {
   min-width: 30px;
 }
@@ -844,6 +861,10 @@ body {
 
 .max-w-\[500px\] {
   max-width: 500px;
+}
+
+.max-w-\[350px\] {
+  max-width: 350px;
 }
 
 .cursor-pointer {
@@ -890,6 +911,14 @@ body {
   border-radius: 2px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[30px\] {
+  border-radius: 30px;
+}
+
 .rounded-b-\[6px\] {
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -897,6 +926,14 @@ body {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-c-30 {
@@ -929,6 +966,11 @@ body {
   background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
+.bg-c-26 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\.\.\/image\/placeholder\.png\'\)\] {
   background-image: url('../image/placeholder.png');
 }
@@ -947,6 +989,11 @@ body {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-\[65px\] {
@@ -981,12 +1028,39 @@ body {
   padding-right: 90px;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
+}
+
+.pr-\[10px\] {
+  padding-right: 10px;
+}
+
+.pt-\[25px\] {
+  padding-top: 25px;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1149,6 +1223,16 @@ body {
 .text-c-B3 {
   --tw-text-opacity: 1;
   color: rgb(179 179 179 / var(--tw-text-opacity));
+}
+
+.text-c-BF {
+  --tw-text-opacity: 1;
+  color: rgb(191 191 191 / var(--tw-text-opacity));
+}
+
+.text-c-73 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 .opacity-70 {
@@ -1337,6 +1421,44 @@ span:nth-child(2) {
   margin: 0 auto 65px auto;
 }
 
+.customized-scrollbar {
+  display: block;
+  width: 300px;
+  overflow: auto;
+  height: 12em;
+}
+
+.customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #262626;
+  border-radius: 30px;
+}
+
+.customized-scrollbar::-webkit-scrollbar-thumb {
+  background: #737373;
+  border-radius: 30px;
+}
+
+.img-scrollbar {
+  display: block;
+  width: 342px;
+  overflow: auto;
+  height: 18em;
+}
+
+.img-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #262626;
+  border-radius: 30px;
+}
+
+.img-scrollbar::-webkit-scrollbar-thumb {
+  background: #737373;
+  border-radius: 30px;
+}
+
 @media (max-width: 1024px) {
   .lg\:mb-10 {
     margin-bottom: 2.5rem;
@@ -1419,10 +1541,6 @@ span:nth-child(2) {
     min-height: 510px;
   }
 
-  .md\:max-w-\[540px\] {
-    max-width: 540px;
-  }
-
   .md\:max-w-\[500px\] {
     max-width: 500px;
   }
@@ -1446,11 +1564,6 @@ span:nth-child(2) {
   .md\:py-\[60px\] {
     padding-top: 60px;
     padding-bottom: 60px;
-  }
-
-  .md\:px-\[90px\] {
-    padding-left: 90px;
-    padding-right: 90px;
   }
 
   .md\:px-\[70px\] {
@@ -1527,14 +1640,6 @@ span:nth-child(2) {
     margin-bottom: 2rem;
   }
 
-  .mos\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
-  .mos\:mb-5 {
-    margin-bottom: 1.25rem;
-  }
-
   .mos\:mb-2 {
     margin-bottom: 0.5rem;
   }
@@ -1548,24 +1653,14 @@ span:nth-child(2) {
     padding-right: 20px;
   }
 
-  .mos\:px-\[50px\] {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .mos\:py-\[10px\] {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  .mos\:px-\[10px\] {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .mos\:py-\[40px\] {
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-
-  .mos\:px-\[10px\] {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   .mos\:text-\[35px\] {
