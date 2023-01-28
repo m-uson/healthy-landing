@@ -3,12 +3,6 @@ const activeItems = document.querySelectorAll("li a");
 const navActive = document.getElementById("nav-active");
 const ul = document.querySelectorAll("li a");
 const body = document.querySelector("body");
-// const clickSubmit = (document.getElementById("submit").onclick = myClick);
-
-// function myClick() {
-// 	const inputEmail = document.getElementById("inputEmail");
-// 	inputEmail.value = "";
-// }
 
 navBurger.addEventListener("click", function () {
 	navBurger.classList.toggle("active");

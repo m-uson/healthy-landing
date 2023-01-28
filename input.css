@@ -230,6 +230,11 @@ span:nth-child(2) {
 	overflow: auto;
 	height: 12em;
 }
+@media (max-width: 375px) {
+	.customized-scrollbar {
+		width: 270px;
+	}
+}
 
 .customized-scrollbar::-webkit-scrollbar {
 	width: 5px;
@@ -246,6 +251,11 @@ span:nth-child(2) {
 	width: 342px;
 	overflow: auto;
 	height: 18em;
+}
+@media (max-width: 375px) {
+	.img-scrollbar {
+		width: 307px;
+	}
 }
 
 .img-scrollbar::-webkit-scrollbar {
