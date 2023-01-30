@@ -124,6 +124,20 @@
 	transition: transform 0.3s ease-in-out;
 }
 
+.active-block {
+	display: none;
+	height: 1200%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+@media (max-width: 640px) {
+	.active-block {
+		display: block;
+	}
+}
+
 .menu-active {
 	transform: translate(0);
 	transition: transform 0.3s ease-in-out;

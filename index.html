@@ -13,18 +13,16 @@
 		<title>HEALTHY</title>
 	</head>
 
-	<body class="font-neue">
-		<header
-			class="bg-[url('../image/placeholder.png')] max-w-[100%] min-h-[1080px] bg-contain bg-no-repeat"
-		>
+	<body>
+		<header class="absolute w-[100%] left-0 top-0 z-20">
 			<div data-aos="zoom-in-down" class="container py-[45px]">
 				<nav class="flex justify-between items-center">
-					<a class="text-[24px] font-bold leading-8 relative z-20" href="#"
+					<a class="text-[24px] font-bold leading-8 relative z-50" href="#"
 						><img src="./image/logo.svg"
 					/></a>
 					<div
 						id="burger"
-						class="hidden sm:block cursor-pointer h-6 relative z-20"
+						class="hidden sm:block cursor-pointer h-6 relative z-50"
 					>
 						<span
 							id="one"
@@ -54,10 +52,7 @@
 						</li>
 					</ul>
 				</nav>
-				<nav
-					id="nav-active"
-					class="hidden sm:block fixed top-[0] left-0 h-[100%] w-[100%] bg-c-25 translateO z-10"
-				>
+				<nav id="nav-active" class="active-block bg-c-25 translateO z-30">
 					<ul class="mt-[105px] ml-[8px] font-bold">
 						<li class="mb-2 ml-[4px]">
 							<a class="is-active text-[25px]" href="#">Home</a>
@@ -74,9 +69,18 @@
 					</ul>
 				</nav>
 			</div>
-			<div>
-				<div class="container">
-					<div class="flex flex-col items-center mt-20">
+		</header>
+		<main class="relative h-[1080px]">
+			<div class="container">
+				<div class="absolute left-0 top-0 w-[100%] h-[100%]">
+					<img
+						class="w-[100%] h-[100%] object-cover"
+						src="./image/placeholder.png"
+						alt=""
+					/>
+				</div>
+				<div class="pt-48">
+					<div class="flex flex-col items-center mb-[120px]">
 						<p
 							data-aos="zoom-in"
 							class="text-[72px] text-center md:text-[62px] sm:text-[52px] mos:text-[35px] mo:text-[25px]"
@@ -99,7 +103,7 @@
 						</p>
 						<button
 							data-aos="zoom-in"
-							class="text-[18px] font-bold text-c-1A bg-c-34 w-[220px] h-[72px] rounded-[40px] mt-10 mb-[70px]"
+							class="text-[18px] font-bold text-c-1A bg-c-34 w-[220px] h-[72px] rounded-[40px] mt-10"
 						>
 							Order Now
 						</button>
@@ -107,7 +111,7 @@
 					<div
 						data-aos="fade-up"
 						data-aos-duration="3000"
-						class="mt-[70px] flex justify-between sm:flex-col"
+						class="flex justify-between relative z-10 sm:flex-col"
 					>
 						<div class="flex flex-col items-center sm:mb-7">
 							<img
@@ -128,75 +132,79 @@
 							<p class="text-sm opacity-50">Call Online</p>
 						</div>
 					</div>
-					<div
-						data-aos="fade-down"
-						data-aos-easing="linear"
-						data-aos-duration="1500"
-						class="max-w-[1050px] bg-c-25 mt-28 m-auto min-h-[736px] p-[65px] mos:px-[20px]"
-					>
-						<div class="flex items-center justify-center mb-8">
-							<p
-								class="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 mos:text-[70px] mo:text-[60px]"
-							>
-								About
-							</p>
-							<p
-								class="absolute text-[30px] text-c-D9 tracking-[0.3em] sm:text-[27px] mos:text-[20px] mos:tracking-[0.2em] mo:text-[16px] mo:tracking-[0.1em]"
-							>
-								The Basics Of Healthy Food
-							</p>
-						</div>
+				</div>
+			</div>
+		</main>
+		<section class="mt-[-220px] relative z-10">
+			<div class="container">
+				<div
+					data-aos="fade-down"
+					data-aos-easing="linear"
+					data-aos-duration="1500"
+					class="max-w-[1050px] bg-c-25 mt-28 m-auto min-h-[736px] p-[65px] mos:px-[20px]"
+				>
+					<div class="flex items-center justify-center mb-8">
 						<p
-							class="text-[16px] text-c-A6 max-w-[700px] text-center m-auto mos:text-[14px] mb-14"
+							class="mix-blend-normal text-[100px] font-black tracking-[0.2em] text-c-30 mos:text-[70px] mo:text-[60px]"
 						>
-							In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur
-							sint ea aliquip aliquip consectetur voluptate est. Eu minim dolore
-							laboris enim mollit voluptate irure esse aliquip.
+							About
 						</p>
-						<div class="swiper mySwiper">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<img src="./image/img6.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img2.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img3.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img4.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img5.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img6.png" alt="I can't find the image" />
-								</div>
-								<div class="swiper-slide">
-									<img src="./image/img7.png" alt="I can't find the image" />
-								</div>
+						<p
+							class="absolute text-[30px] text-c-D9 tracking-[0.3em] sm:text-[27px] mos:text-[20px] mos:tracking-[0.2em] mo:text-[16px] mo:tracking-[0.1em]"
+						>
+							The Basics Of Healthy Food
+						</p>
+					</div>
+					<p
+						class="text-[16px] text-c-A6 max-w-[700px] text-center m-auto mos:text-[14px] mb-14"
+					>
+						In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint
+						ea aliquip aliquip consectetur voluptate est. Eu minim dolore
+						laboris enim mollit voluptate irure esse aliquip.
+					</p>
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./image/img6.png" alt="I can't find the image" />
 							</div>
-							<div class="swiper-button-next h-16 w-16 sm:hidden">
-								<img
-									class="bg-cover"
-									src="./image/icon-next.svg"
-									alt="I can't find the image"
-								/>
+							<div class="swiper-slide">
+								<img src="./image/img2.png" alt="I can't find the image" />
 							</div>
-							<div class="swiper-button-prev h-16 w-16 sm:hidden">
-								<img
-									class="bg-cover"
-									src="./image/icon-prev.svg"
-									alt="I can't find the image"
-								/>
+							<div class="swiper-slide">
+								<img src="./image/img3.png" alt="I can't find the image" />
 							</div>
-							<div class="swiper-pagination hidden sm:block"></div>
+							<div class="swiper-slide">
+								<img src="./image/img4.png" alt="I can't find the image" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/img5.png" alt="I can't find the image" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/img6.png" alt="I can't find the image" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./image/img7.png" alt="I can't find the image" />
+							</div>
 						</div>
+						<div class="swiper-button-next h-16 w-16 sm:hidden">
+							<img
+								class="bg-cover"
+								src="./image/icon-next.svg"
+								alt="I can't find the image"
+							/>
+						</div>
+						<div class="swiper-button-prev h-16 w-16 sm:hidden">
+							<img
+								class="bg-cover"
+								src="./image/icon-prev.svg"
+								alt="I can't find the image"
+							/>
+						</div>
+						<div class="swiper-pagination hidden sm:block"></div>
 					</div>
 				</div>
 			</div>
-		</header>
+		</section>
 		<section>
 			<div class="container pt-20 pb-10">
 				<div

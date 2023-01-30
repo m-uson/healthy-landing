@@ -578,10 +578,6 @@ body {
   max-width: 1150px;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -590,16 +586,24 @@ body {
   position: relative;
 }
 
-.top-\[0\] {
-  top: 0;
-}
-
 .left-0 {
   left: 0px;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .z-20 {
   z-index: 20;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .z-10 {
@@ -639,8 +643,8 @@ body {
   margin-left: 4px;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mb-\[120px\] {
+  margin-bottom: 120px;
 }
 
 .mb-\[18px\] {
@@ -651,16 +655,12 @@ body {
   margin-top: 2.5rem;
 }
 
-.mb-\[70px\] {
-  margin-bottom: 70px;
-}
-
-.mt-\[70px\] {
-  margin-top: 70px;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-\[-220px\] {
+  margin-top: -220px;
 }
 
 .mt-28 {
@@ -735,6 +735,10 @@ body {
   margin-right: 1.25rem;
 }
 
+.mt-\[70px\] {
+  margin-top: 70px;
+}
+
 .mt-\[10px\] {
   margin-top: 10px;
 }
@@ -753,6 +757,10 @@ body {
 
 .h-6 {
   height: 1.5rem;
+}
+
+.h-\[1080px\] {
+  height: 1080px;
 }
 
 .h-\[100\%\] {
@@ -785,10 +793,6 @@ body {
 
 .h-\[120px\] {
   height: 120px;
-}
-
-.min-h-\[1080px\] {
-  min-height: 1080px;
 }
 
 .min-h-\[2px\] {
@@ -837,10 +841,6 @@ body {
 
 .min-w-\[30px\] {
   min-width: 30px;
-}
-
-.max-w-\[100\%\] {
-  max-width: 100%;
 }
 
 .max-w-\[600px\] {
@@ -979,16 +979,8 @@ body {
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/image\/placeholder\.png\'\)\] {
-  background-image: url('../image/placeholder.png');
-}
-
 .bg-\[url\(\'\.\.\/image\/image\.jpg\'\)\] {
   background-image: url('../image/image.jpg');
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-cover {
@@ -1054,6 +1046,10 @@ body {
 .py-7 {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
 }
 
 .pt-20 {
@@ -1331,6 +1327,21 @@ body {
 .translateO {
   transform: translateY(-400%);
   transition: transform 0.3s ease-in-out;
+}
+
+.active-block {
+  display: none;
+  height: 1200%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 640px) {
+  .active-block {
+    display: block;
+  }
 }
 
 .menu-active {
